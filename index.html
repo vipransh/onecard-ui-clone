@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Document</title>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            myBlue: '#1893f7',
+            myGray: '#696969',
+            
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <!-- header -->
+  <header class="fixed top-0 w-full bg-white flex flex-row items-center justify-between px-4 md:px-20 py-3">
+    <img class="w-16" src="./assets/logo_black.svg" alt="logo"/>
+      <div class="flex flex-row items-center gap-10">
+        <ul class="hidden md:flex flex-row items-center gap-10 text-[#0c161b] font-medium">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Offers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact US</a></li>
+        </ul>
+        <button class="bg-myBlue text-white font-medium px-2 py-1 rounded-md shadaow-lg">Apply Now</button>
+      </div>
+  </header>
+  <!-- hero section -->
+  <section class="flex flex-col-reverse md:flex-row items-center justify-between h-screen  px-20 py-2 mt-16">
+    <div>
+      <h1 class="text-3xl font-medium">Say Hi to</h1>
+      <h1 class="text-6xl font-semibold text-myBlue mt-2 mb-5">One Card</h1>
+      <p class="text-myBlue font-medium">Co-branded Card Issuers :</p>
+      <img class="w-96 mt-4 mb-5" src="./assets/Banking_partners_24thJan_dark__.png"/>
+      <p class="text-[#2c2c2c!important] ">India's best metal credit card. Built with full-stack tech.</br> Backed by the principles of simplicity, transparency, and</br> giving back control to the user.</p>
+      <button><img class="w-56 mt-8" src="./assets/cta_apply_now (1).svg"/></button>
+    </div>
+     <!-- video section -->
+     <video  controlsList=”nodownload”  autoplay loop muted width="500" height="360"> 
+      <source src="./assets/say_hi_2x_d3_.mp4" type="video/webm"></video>
+  </section>
+  <!-- info section -->
+  <section class="md:bg-black flex items-center justify-center py-20 px-4 md:h-screen">
+    <div class="text-center">
+      <h1 class="text-myBlue font-medium text-6xl mb-24">No Hidden Fees Ever.</h1>
+    <h1 class="md:text-white  text-4xl mb-3">No Joining Fees.</h1>
+    <h1 class="md:text-white  text-4xl mb-3">No Annual Fees.</h1>
+    <h1 class="md:text-white  text-4xl">No Rewards Redemption Fees.</h1>
+    </div>
+  </section>
+  <!-- section 2 -->
+  <section class="flex flex-col md:flex-row items-center justify-between md:h-screen px-10  md:px-20 py-10 md:py-2">
+     <!-- video section -->
+     <video  controlsList=”nodownload”  autoplay loop muted width="500" height="360"> 
+      <source src="./assets/control.mp4" type="video/webm"></video>
+      <div class="flex flex-col items-center md:items-end md:text-end">
+        <img src="./assets/control_app_icon.svg"/>
+        <h1 class="text-6xl font-semibold  mt-2 mb-5">Powerful,</br>
+          mobile app</h1>
+        <p class="text-myGray text-xl ">Control all aspects of your co-branded </br>credit card from the powerful OneCard app </br>- transaction limit, domestic/international</br> use, online/offline use, contactless</br> payments and much more.</p>
+      </div>
+  </section>
+  <!-- section 3 -->
+  <section class="flex flex-col md:flex-row items-center justify-between md:h-screen px-10  md:px-20 py-10 md:py-2 bg-gray-100">
+     <div >
+       <img src="./assets/metal_icon.svg"/>
+       <h1 class="text-6xl font-semibold  mt-2 mb-5">It's metal</h1>
+       <p class="text-myGray text-xl ">A co-branded credit card that is exclusive,</br> and exquisitely crafted with metal, </br>because you deserve only the best. Why</br> settle for plastic cards anymore?</p>
+     </div>
+     <!-- video section -->
+    <video  controlsList=”nodownload”  autoplay loop muted width="500" height="360"> 
+      <source src="./assets/CardRotation_d5.mp4" type="video/webm"></video>
+ </section>
+ <!-- section 4 -->
+ <section class="flex flex-col md:flex-row items-center justify-between md:h-screen px-10 md:px-20 py-10 md:py-2">
+  <!-- video section -->
+  <video  controlsList=”nodownload”  autoplay loop muted width="500" height="360"> 
+   <source src="./assets/kyc.mp4" type="video/webm"></video>
+   <div class="flex flex-col items-end text-end">
+     <img src="./assets/kyc_icon.svg"/>
+     <h1 class="text-5xl font-semibold  mt-2 mb-5">Seamless</br>
+      on-boarding
+      </h1>
+     <p class="text-myGray text-xl ">Get started using a completely digital on-</br>boarding process, and activate your</br> OneCard in less than 5 minutes.</p>
+   </div>
+</section>
+<!-- section -5 -->
+<section class="flex flex-col md:flex-row items-center justify-between md:h-screen px-10 md:px-20 py-10 md:py-2 bg-gray-100">
+  <div >
+    <img src="./assets/rewards_icon.svg"/>
+    <h1 class="text-5xl font-semibold  mt-2 mb-5">5X rewards on your top </br>spends</h1>
+    <p class="text-myGray text-xl ">5X rewards on Top 2 spend categories.</br> Points are credited instantly and never</br> expire. Just swipe right to redeem. No more</br> rounding off, get even fractional points.</p>
+  </div>
+  <!-- video section -->
+ <video  controlsList=”nodownload”  autoplay loop muted width="460" height="360"> 
+   <source src="./assets/rewards.mp4" type="video/webm"></video>
+</section>
+<!-- section-6 -->
+<section class="flex flex-col md:flex-row items-center justify-between md:h-screen px-10 md:px-20 py-10 md:py-2">
+  <!-- video section -->
+  <video  controlsList=”nodownload”  autoplay loop muted width="500" height="360"> 
+   <source src="./assets/emi.mp4" type="video/webm"></video>
+   <div class="flex flex-col items-end text-end">
+     <img src="./assets/emi.svg"/>
+     <h1 class="text-6xl font-semibold  mt-2 mb-5">OneCard EMI
+      </h1>
+     <p class="text-myGray text-xl ">Shop in full, pay in parts. No calls, no emails,</br> no documentation. Get points on EMI</br> transactions, repay EMIs with reward</br> points. Manage EMIs from the EMI </br>Dashboard.</p>
+   </div>
+</section>
+<!-- section-7 -->
+<section class="flex flex-col md:flex-row items-center justify-between md:h-screen px-10 md:px-20 py-10 md:py-2 bg-gray-100">
+  <div >
+    <img class="w-12" src="./assets/Family_icon_for_web.png"/>
+    <h1 class="text-5xl font-semibold  mt-2 mb-5">MyFamily</h1>
+    <p class="text-myGray text-xl ">Share limit with your family. They get their</br> own co-branded OneCard with separate</br> offers while you keep track and control of</br> their spending.</p>
+    <button class="bg-myBlue text-white px-4 py-2 text-center font-semibold rounded-lg mt-8">Learn more</button>
+  </div>
+ <img class="w-[45%]" src="./assets/website_familycard_64c.gif"/>
+</section>
+<!-- section-8 -->
+<section class="flex flex-col md:flex-col items-center justify-center md:h-screen py-10">
+  <h1 class="mb-20 text-6xl font-medium">From Our <span class="text-myBlue">Blog</span></h1>
+  <div class="w-[90%] md:w-[80%]">
+    <h1 class="font-medium text-xl mb-5">Explore Latest</h1>
+    <div class="flex flex-col md:flex-row items-center gap-4 md:justify-between px-2">
+      <!-- card 1 -->
+      <div class="flex flex-col gap-4">
+        <img class="w-80 border border-gray-200 rounded-lg" src="./assets/best_credit_card.png"/>
+        <div class="flex flex-col gap-2">
+          <p class="text-xs text-[#646464]">Jul 06, 2023</p>
+        <h1 class="text-[#646464] font-medium">The Best Credit Card in India in 2023:</br> Features and Benefits</h1>
+        </div>
+      </div>
+      <!-- card 2 -->
+      <div class="flex flex-col gap-4">
+        <img class="w-80 border border-gray-200 rounded-lg" src="./assets/credit-card-emi.png"/>
+        <div class="flex flex-col gap-2">
+          <p class="text-xs text-[#646464]">Jul 06, 2023</p>
+        <h1 class="text-[#646464] font-medium">How Does Credit Card EMI</br> Work?</h1>
+        </div>
+      </div>
+      <!-- card 3 -->
+      <div class="flex flex-col gap-4">
+        <img class="w-80 border border-gray-200 rounded-lg" src="./assets/first-credit-card.png"/>
+        <div class="flex flex-col gap-2">
+          <p class="text-xs text-[#646464]">Jul 06, 2023</p>
+        <h1 class="text-[#646464] font-medium">Things to Know Before Getting Your First</br> Credit Card</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer section -->
+<footer class="bg-black flex flex-col md:flex-row  justify-between py-20 px-10">
+  <div>
+    <h1 class="text-white font-medium">One Card</h1>
+    <p class="text-gray-400">India's best metal credit card. Built with full</br>-stack tech. Backed by the principles of </br>simplicity, transparency, and giving back</br> control to the user.</p>
+  </div>
+  <div class="flex flex-col gap-4">
+    <h1 class="text-white font-medium">Navigation</h1>
+    <a href="#"><h2 class="text-gray-400">Home</h2></a>
+    <a href="#"><h2 class="text-gray-400">About Us</h2></a>
+    <a href="#"><h2 class="text-gray-400">Careers</h2></a>
+    <a href="#"><h2 class="text-gray-400">Offers</h2></a>
+  </div>
+  <div class="flex flex-col gap-4">
+    <h1 class="text-white font-medium">Support</h1>
+    <a href="#"><h2 class="text-gray-400">FAQ</h2></a>
+    <a href="#"><h2 class="text-gray-400">Cookies Policy</h2></a>
+    <a href="#"><h2 class="text-gray-400">Terms of Services</h2></a>
+    <a href="#"><h2 class="text-gray-400">Support</h2></a>
+  </div>
+  <div class="flex flex-col">
+    <h1 class="text-white font-medium ">Newsletter</h1>
+    <input class="mt-4 px-2 py-1 rounded-md outline-none" type="text" placeholder="Your email id here"/>
+    <button class="bg-myBlue text-white py-1 rounded-md mt-2 ">Subscribe</button>
+  </div>
+</footer>
+<script>
+  window.alert("Stop! This website is clone of https://www.getonecard.app It was created for educational purpose only.")
+</script>
+</body>
+</html>
